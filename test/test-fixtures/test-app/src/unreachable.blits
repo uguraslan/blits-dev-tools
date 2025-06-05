@@ -1,0 +1,9 @@
+<template>
+  <Element />
+</template>
+<script lang="ts">
+export function test() {
+  return
+  const a = 1
+}
+</script>

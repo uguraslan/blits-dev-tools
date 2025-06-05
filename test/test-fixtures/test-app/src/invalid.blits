@@ -1,0 +1,15 @@
+<template>
+  <Element>
+  </Element>
+</template>
+
+<script lang="ts">
+import Blits from '@lightningjs/blits'
+export default Blits.Component('Invalid', {
+  methods: {
+    test() {
+      notExisting()
+    }
+  }
+})
+</script>

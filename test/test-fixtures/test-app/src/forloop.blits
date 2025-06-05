@@ -1,0 +1,11 @@
+<template>
+  <Element :for="(item, i) in list" key="$i" />
+</template>
+<script>
+import Blits from '@lightningjs/blits'
+export default Blits.Component('LoopBlits', {
+  state() {
+    return { list: [1,2,3] }
+  }
+})
+</script>

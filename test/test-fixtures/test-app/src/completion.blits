@@ -1,0 +1,8 @@
+<template>
+  <
+</template>
+
+<script>
+import Blits from '@lightningjs/blits';
+export default Blits.Component('Comp', {});
+</script>

@@ -1,0 +1,7 @@
+<template>
+  <Element />
+</template>
+<script>
+import Blits from '@lightningjs/blits'
+export default Blits.Component('CommentComp', {})
+</script>
