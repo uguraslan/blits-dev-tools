@@ -8,5 +8,8 @@ backup
 .eslintcache
 .vscode-test/**
 src/parsers/testParser.js
-./test
-*.test.js
+# coverage output
+coverage/
+.nyc_output/
+# Exclude test artifacts from publishing but keep tests in repo
+# ! (negating) not needed since we want to track test files

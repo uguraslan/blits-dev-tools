@@ -1,0 +1,25 @@
+{
+  "include": [
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "src/core/componentHandler.js",
+    "src/blitsFile/languageService.js",
+    "src/blitsFile/diagnostics.js",
+    "src/blitsFile/hoverProvider.js",
+    "src/blitsFile/completionProvider.js",
+    "src/blitsFile/signatureHelpProvider.js",
+    "src/blitsFile/fileTemplateProvider.js",
+    "src/blitsFile/codeActionsProvider.js",
+    "src/blitsFile/config/**",
+    "src/blitsFile/utils/**",
+    "src/parsers/templateParser/**",
+    "src/extension.js",
+    "src/commands/commentCommand.js",
+    "src/core/workspaceHandler.js",
+    "src/errorChecking/checkForLoopIndexAsKey.js",
+    "src/formatters/templateFormatterOnSave.js"
+  ],
+  "reporter": ["text", "lcov"],
+  "all": true
+}
