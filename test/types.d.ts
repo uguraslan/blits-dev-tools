@@ -1,4 +1,3 @@
-// TypeScript declarations for VS Code extension testing
 // Simple type helpers for test files
 
 declare global {

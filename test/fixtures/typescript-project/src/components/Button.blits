@@ -1,12 +1,12 @@
 <template>
-  <Element 
-    w="$width" 
-    h="$height" 
+  <Element
+    w="$width"
+    h="$height"
     :color="$backgroundColor"
     @click="$handleClick"
   >
-    <Text 
-      :content="$label" 
+    <Text
+      :content="$label"
       :color="$textColor"
       x="$textX"
       y="$textY"
@@ -27,7 +27,7 @@ export interface ButtonProps {
 
 export default {
   props: ['label', 'width', 'height', 'position'] as const,
-  
+
   state(): {
     isPressed: boolean;
     clickCount: number;
@@ -62,11 +62,11 @@ export default {
     async handleClick(): Promise<void> {
       this.isPressed = true;
       this.clickCount++;
-      
+
       // Test Math object and async/await
       try {
         this.calculatedValue = await MathUtils.calculateAsync(this.clickCount);
-        
+
         // Test path alias import
         if (this.position) {
           const distance = MathUtils.distance(

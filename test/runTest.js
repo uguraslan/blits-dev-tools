@@ -1,5 +1,4 @@
 const path = require('path')
-
 const { runTests } = require('@vscode/test-electron')
 
 async function runTestSuite(suiteName, workspacePath) {
@@ -16,7 +15,6 @@ async function runTestSuite(suiteName, workspacePath) {
       launchArgs.push(workspacePath)
     }
 
-    // Download VS Code, unzip it and run the integration test
     await runTests({
       extensionDevelopmentPath,
       extensionTestsPath,
