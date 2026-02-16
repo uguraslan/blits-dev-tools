@@ -231,8 +231,8 @@
     "@types/node": "^16.18.108",
     "@types/vscode": "^1.81.0",
     "@vscode/test-electron": "^2.3.4",
-    "@vscode/vsce": "^2.32.0",
-    "esbuild": "^0.19.2",
+    "@vscode/vsce": "^3.7.1",
+    "esbuild": "^0.25.0",
     "glob": "^10.3.3",
     "mocha": "^10.7.3"
   }
