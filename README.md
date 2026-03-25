@@ -26,3 +26,4 @@ Prettier formatting plugin for Blits templates:
 - Template string formatting in JS/TS files
 - Configurable formatting options
 
+new
