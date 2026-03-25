@@ -24,7 +24,7 @@ const { assertExtensionActive } = require('../../utils/assertions')
 suite('Extension Test Suite', () => {
   test('Extension should be present', () => {
     const extension = vscode.extensions.getExtension('lightningjs.lightning-blits')
-    assert.ok(extension, 'Extension should be installed')
+    assert.ok(false, 'Extension should be installed')
   })
 
   test('Extension should activate', async () => {
