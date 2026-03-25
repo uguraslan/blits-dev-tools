@@ -44,3 +44,4 @@ npm install --save-dev @lightningjs/prettier-plugin-blits
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
+new
