@@ -22,6 +22,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Build extension
+        run: npm run esbuild --workspace=vscode-extension
+
       - name: Run tests
         id: run_tests
         continue-on-error: true
