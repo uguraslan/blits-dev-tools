@@ -69,7 +69,8 @@ jobs:
               summary = total > 0 ? ` ${total} tests passed.` : ''
             }
 
-            const clean = output.replace(/\x1b\[[0-9;]*m/g, '')
+            const esc = String.fromCharCode(27)
+            const clean = output.replace(new RegExp(esc + '\\[[0-9;]*m', 'g'), '')
 
             const filtered = clean
               .split('\n')
