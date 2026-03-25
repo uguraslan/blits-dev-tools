@@ -27,3 +27,4 @@ Prettier formatting plugin for Blits templates:
 - Configurable formatting options
 
 new
+new2
